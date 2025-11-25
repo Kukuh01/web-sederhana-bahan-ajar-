@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Sangat direkomendasikan */
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+/* Start Header */
+.header {
+    background-color: black;
+    width: 100%;
+    height: fit-content;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 150px;
+    padding-right: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header img {
+    width: 200px;
+}
+
+.header input {
+    width: 250px;
+    background-color: #3f3f46;
+    height: 35px;
+    border-radius: 5px;
+    outline: none;
+    padding: 5px;
+    color: white;
+}
+
+.search-icon {
+    color: #3f3f46;
+    padding: 0 10px;
+}
+
+::-webkit-input-placeholder {
+  color: #a0a0a0;
+  padding: 0 10px;
+}
+
+.header button {
+    background-color: #52a6f0;
+    color: white;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+}
+
+.header button:hover {
+    background-color: #006bc9;
+}
+
+/* End Header */
+
+/* Start Navbar */
+.navbar {
+    width: 100%;
+    height: fit-content;
+    background-color: black;
+    border-top: 1px solid;
+    border-color: #3f3f46;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.navbar a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #3f3f46;
+}
+/* End Navbar */
+
+/* Start Main*/
+main {
+    max-width: 1200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* End Main*/
+
+section {
+    width: fit-content;
+    /* border: 1px solid black; */
+    margin-right: 55px;
+}
+
+/* Start Hero */
+.hero {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    /* border: 1px solid black; */
+}
+
+.hero img {
+    width: 40%;
+    border-radius: 10px;
+}
+
+.hero-text {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hero-text a {
+    float: right;
+    color: blue;
+}
+
+.judul {
+    font-weight: bold;
+}
+
+/* End Hero */
+
+.container-berita {
+    width: 100%;
+    height: auto;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box-berita {
+    width: 250px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    /* border: 1px solid black; */
+}
+
+.box-berita img {
+    width: 250px;
+    border-radius: 10px;
+}
+
+.sidebar {
+    /* border: 1px solid black; */
+    list-style-position: inside;
+}
+
+.sidebar li{
+    padding-bottom: 10px;
+    color: #808080;
+}
+
+.sidebar li:hover{
+    padding-bottom: 10px;
+    color: #e6ad1e;
+}
+
+.sidebar h3 {
+    margin-bottom: 5px;
+}
+
+footer {
+    width: 100%;
+    height: 100px;    
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p{
+    color: white;
+}
