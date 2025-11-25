@@ -188,3 +188,23 @@ footer {
 footer p{
     color: white;
 }
+
+body.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+  transition: 0.3s;
+}
+
+body.dark-mode .sidebar {
+  background-color: #1e1e1e;
+  border-left: 1px solid #333;
+}
+
+body.dark-mode .box-berita {
+  background-color: #1e1e1e;
+  border: 1px solid #333;
+}
+
+.box-berita {
+  transition: transform 0.3s;
+}
