@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Sangat direkomendasikan */
+}
+
+/* ========== Warna Dasar ========== */
+:root {
+    --bg: #f5f5f5;
+    --text: #333;
+    --subtext: #666;
+    --border: #ccc;
+    --accent: #444;
+    --white: #fff;
+}
+
+/* ========== Global Style ========== */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--bg);
+    color: var(--text);
+}
+
+/* Start Header */
+.header {
+    background-color: black;
+    width: 100%;
+    height: fit-content;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 150px;
+    padding-right: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header img {
+    width: 200px;
+}
+
+.header input {
+    width: 250px;
+    background-color: #3f3f46;
+    height: 35px;
+    border-radius: 5px;
+    outline: none;
+    padding: 5px;
+    color: white;
+}
+
+.search-icon {
+    color: #3f3f46;
+    padding: 0 10px;
+}
+
+::-webkit-input-placeholder {
+  color: #a0a0a0;
+  padding: 0 10px;
+}
+
+.header button {
+    background-color: #52a6f0;
+    color: white;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+}
+
+.header button:hover {
+    background-color: #006bc9;
+}
+
+/* End Header */
+
+/* Start Navbar */
+.navbar {
+    width: 100%;
+    height: fit-content;
+    background-color: black;
+    border-top: 1px solid;
+    border-color: #3f3f46;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.navbar a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #3f3f46;
+}
+/* End Navbar */
+
+/* Foto Profil */
+.profil-foto {
+    text-align: center;
+}
+
+.profil-foto img {
+    border-radius: 100px;
+    border: 2px solid var(--border);
+}
+
+.nama-penulis {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background: var(--white);
+}
+
+table, th, td {
+    border: 1px solid var(--border);
+}
+
+th {
+    background: #e0e0e0;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+}
+
+/* List */
+ul, ol {
+    margin-left: 20px;
+}
+
+/* Blockquote */
+blockquote {
+    background: #eaeaea;
+    padding: 15px;
+    border-left: 5px solid var(--accent);
+    font-style: italic;
+}
+
+/* Form */
+form {
+    margin-top: 15px;
+    background: var(--white);
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid var(--border);
+}
+
+form label {
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+}
+
+button {
+    background: var(--accent);
+    color: var(--white);
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background: #222;
+}
+
+/* Link Button */
+.btn-link {
+    display: inline-block;
+    margin-bottom: 10px;
+    color: var(--accent);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-link:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    height: 100px;    
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p{
+    color: white;
+}
+main {
+    max-width: 800px;
+    margin: auto;
+}
